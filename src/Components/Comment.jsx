@@ -3,11 +3,11 @@ import style from './Comment.module.css';
 
 export function Comment() {
     return(
-        <div className={style.Comment}>
+        <div className={style.comment}>
             <img src="https://github.com/anjosmarcos.png" />
 
-            <div className={style.CommentBox}>
-                <div className={style.CommentContent}>
+            <div className={style.commentBox}>
+                <div className={style.commentContent}>
                     <header>
                         <div className={style.authorAndTime}>
                             <strong>Marcos Alexandre</strong>
