@@ -8,6 +8,7 @@ import { useState } from 'react';
 
 export function Post({author, publishedAt, content}) {
     const [newCommentText, setNewCommentTest] = useState('')
+    
     const [comments, setComments] = useState([
         'Post muito bom!',
     ])
@@ -35,6 +36,17 @@ export function Post({author, publishedAt, content}) {
         setNewCommentTest(event.target.value)
     }
 
+    function deleteComment(commentToDelete) {
+        // imuutabilidade - não altera o estado atual
+        
+        // filter retorna um novo array
+        const commentsWithoutDeleted = comments.filter(comment => {
+            return comment !== commentToDelete;
+        })
+
+        // filter retorna um novo array
+        setComments(commentsWithoutDeleted)
+    }
 
     return(
         <article className={style.post}>
@@ -81,7 +93,11 @@ export function Post({author, publishedAt, content}) {
 
             <div className={style.commentList}>
                {comments.map(comment => (
-                   <Comment key={comment}  content={comment} />
+                   <Comment 
+                        key={comment}  
+                        content={comment}
+                        onDeleteComment={deleteComment} 
+                    />
                ))}
 
             </div>
