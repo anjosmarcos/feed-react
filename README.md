@@ -1,4 +1,63 @@
-# React + Vite
+# Ignite Feed
 
-Link para o Figma
-https://www.figma.com/file/HiFu4EZw3OWMBHoDvbCNoY/Ignite-Feed-(Community)-(Copy)?type=design&node-id=0%3A1&mode=dev&t=h4RZ4D2gy9yxFiyt-1
+
+O projeto Ignite Feed é uma plataforma de compartinhamento de conteúdo que visa fornecer aos usuários uma maneira conveniente visualizar/comentar/publicar informações relevantes.  
+
+## 🚀 Começando
+
+Essas instruções permitirão que você obtenha uma cópia do projeto em operação na sua máquina local para fins de desenvolvimento e teste.
+
+
+### 🔧 Instalação
+
+Clone do repositorio:
+
+```
+https://github.com/anjosmarcos/feed-react.git
+```
+
+Executar com o comando:
+```
+npm run dev
+```
+
+Em seu navegador de sua preferencia usar o link de comando:
+```
+http://127.0.0.1:5173/
+```	
+
+![Ignite Feed](img/img01.png)
+
+
+## 📦 Implantação
+
+Adicione notas adicionais sobre como implantar isso em um sistema ativo
+
+## 🛠️ Construído com
+
+As tecnologias utilizadas foram:
+
+* [ReactJS](https://reactjs.org/) - Biblioteca JavaScript para construção de interfaces de usuário
+* [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript) - Linguagem de programação de alto nível e dinâmica
+* [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML) - Linguagem de marcação para construção de páginas web
+* [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS) - Linguagem de estilização para páginas web
+* [Phosphor Icons](https://phosphoricons.com/) - Conjunto de ícones para uso em projetos web
+* [date-fns](https://date-fns.org/) - Biblioteca JavaScript para manipulação de datas
+
+## 📌 Versão
+
+Nós usamos [SemVer](http://semver.org/) para controle de versão. Para as versões disponíveis, observe as [tags neste repositório](https://github.com/suas/tags/do/projeto). 
+
+
+## 📄 Licença
+
+Esse projeto está sob a licença MIT.
+
+## 🎁 Expressões de gratidão
+
+Gostaria de agradecer especialmente ao Diego Fernandes da RockSeat pelos ensinamentos para o desenvolvimento deste projeto.
+
+
+
+---
+⌨️ com ❤️ por [Marcos Anjos](https://singlebio.link/marcosanjos) 😊
