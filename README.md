@@ -1,5 +1,5 @@
-# Ignite Feed
-
+![Ignite Feed](img/Capa.png)
+# Projeto: Ignite Feed
 
 O projeto Ignite Feed é uma plataforma de compartinhamento de conteúdo que visa fornecer aos usuários uma maneira conveniente visualizar/comentar/publicar informações relevantes.  
 
@@ -32,6 +32,29 @@ http://127.0.0.1:5173/
 ## 📦 Implantação
 
 Adicione notas adicionais sobre como implantar isso em um sistema ativo
+
+### 📦 Usan Docker para testar a aplicação 
+
+
+#### Como usar
+
+Faça o pull da imagem Docker:
+
+```
+   docker pull devmarcosanjos/feed-ignite
+```
+
+Faça o pull da imagem Docker:
+
+```
+docker run -d --name meu_container -p 8080:5173 devmarcosanjos/feed-ignite
+``` 
+
+Acesse a aplicação em:
+
+```
+http://localhost:8080
+``` 
 
 ## 🛠️ Construído com
 
